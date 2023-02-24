@@ -1,8 +1,7 @@
-
 import { Component, Fragment } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import './App.css';
+import './App.styles.css';
 
 class App extends Component {
   constructor() {
@@ -20,7 +19,6 @@ class App extends Component {
       </Fragment>
     );
   }
-
 }
 
 export default App;
