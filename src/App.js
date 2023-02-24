@@ -1,16 +1,26 @@
-import "./App.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import HomePage from "./components/HomePage/HomePage.component";
-function App() {
-  return (
-    <Router>
-      <div className="App">
+
+import { Component, Fragment } from 'react';
+import { Routes, Route } from 'react-router-dom';
+
+import './App.css';
+
+class App extends Component {
+  constructor() {
+    super();
+  }
+
+  render() {
+    return (
+      <Fragment>
         <Routes>
-          <Route path="/" exact element={<HomePage />} />
+          <Route path='/' element={<Navigation />}>
+            <Route index element={<Home />} />
+          </Route>
         </Routes>
-      </div>
-    </Router>
-  );
+      </Fragment>
+    );
+  }
+
 }
 
 export default App;
