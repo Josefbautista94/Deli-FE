@@ -1,3 +1,4 @@
+
 import { Component, Fragment } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ class App extends Component {
       </Fragment>
     );
   }
+
 }
 
 export default App;
