@@ -1,7 +1,9 @@
+import HomePage from "../../components/HomePage/HomePage.component.jsx";
+
 const Home = () => {
   return (
     <div>
-      <h1>This is the homepage component</h1>
+      <HomePage />
     </div>
   );
 };
