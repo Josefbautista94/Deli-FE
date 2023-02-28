@@ -6,6 +6,7 @@ class HomePage extends React.Component {
     return (
       <div>
         <section
+          id="fresh-salads"
           className="section"
           style={{ backgroundColor: "rgb(55, 166, 30)" }}
         >
@@ -13,6 +14,7 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="grilled-cheese"
           className="section"
           style={{ backgroundColor: "rgb(19, 54, 88)" }}
         >
@@ -20,6 +22,7 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="halal-food"
           className="section"
           style={{ backgroundColor: "rgb(88, 0, 77)" }}
         >
@@ -27,6 +30,7 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="signature-sandwiches"
           className="section"
           style={{ backgroundColor: "rgb(32, 73, 155 )" }}
         >
@@ -34,6 +38,7 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="steaks-n-cheese"
           className="section"
           style={{ backgroundColor: "rgb(241, 86, 30)" }}
         >
@@ -41,14 +46,15 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="breakfast"
           className="section"
           style={{ backgroundColor: "rgb(239, 197, 26)" }}
         >
           <h2>Breakfast</h2>
         </section>
         <p>Menu items go here</p>
-
         <section
+          id="angus-burgers"
           className="section"
           style={{ backgroundColor: "rgb(42, 42, 41)" }}
         >
@@ -56,22 +62,23 @@ class HomePage extends React.Component {
         </section>
         <p>Menu items go here</p>
         <section
+          id="fruit-smoothies"
           className="section"
           style={{ backgroundColor: "rgb(30, 150, 136)" }}
         >
           <h2>Fruit Smoothies</h2>
         </section>
         <p>Menu items go here</p>
-
         <section
+          id="protein-smoothies"
           className="section"
           style={{ backgroundColor: "rgb(50, 162, 239)" }}
         >
           <h2>Protein Smoothies</h2>
         </section>
         <p>Menu items go here</p>
-
         <section
+          id="squeezed-juice"
           className="section"
           style={{ backgroundColor: "rgb(55, 172, 70)" }}
         >
