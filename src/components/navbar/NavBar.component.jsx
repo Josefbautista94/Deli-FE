@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "./NavBar.styles.css";
 
 function NavBar() {
@@ -10,11 +9,19 @@ function NavBar() {
   };
 
   return (
-    <nav>
+    <nav
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        background: "#fff",
+      }}
+    >
       <div className="navbar">
-        <Link to="/" className="logo">
-          Ft Tryon Deli & Juice Bar{" "}
-        </Link>
+        <a href="#fresh-salads" className="logo">
+          Ft Tryon Deli & Juice Bar
+        </a>
         <button className="menu-button" onClick={handleMenuClick}>
           <i className="fa fa-bars">MENU</i>
         </button>
@@ -22,38 +29,54 @@ function NavBar() {
       {isMenuOpen && (
         <ul className="menu right">
           <li>
-            <Link to="/">Home</Link>
-          </li>
-
-          <li>
-            <Link to="/fresh-salads">Fresh Salads</Link>
+            <a href="#fresh-salads" onClick={handleMenuClick}>
+              Fresh Salads
+            </a>
           </li>
           <li>
-            <Link to="/grilled-cheese">Grilled Cheese</Link>
+            <a href="#grilled-cheese" onClick={handleMenuClick}>
+              Grilled Cheese
+            </a>
           </li>
           <li>
-            <Link to="/halal-food">Halal Food</Link>
+            <a href="#halal-food" onClick={handleMenuClick}>
+              Halal Food
+            </a>
           </li>
           <li>
-            <Link to="/signature-sandwiches">Signature Sandwiches</Link>
+            <a href="#signature-sandwiches" onClick={handleMenuClick}>
+              Signature Sandwiches
+            </a>
           </li>
           <li>
-            <Link to="/steaks-n-cheese">Steaks n' Cheese</Link>
+            <a href="#steaks-n-cheese" onClick={handleMenuClick}>
+              Steaks n' Cheese
+            </a>
           </li>
           <li>
-            <Link to="/breakfast">Breakfast</Link>
+            <a href="#breakfast" onClick={handleMenuClick}>
+              Breakfast
+            </a>
           </li>
           <li>
-            <Link to="/angus-burgers">Angus Burgers</Link>
+            <a href="#angus-burgers" onClick={handleMenuClick}>
+              Angus Burgers
+            </a>
           </li>
           <li>
-            <Link to="/fruit-smoothies">Fruit Smoothies</Link>
+            <a href="#fruit-smoothies" onClick={handleMenuClick}>
+              Fruit Smoothies
+            </a>
           </li>
           <li>
-            <Link to="/protein-smoothies">Protein Smoothies</Link>
+            <a href="#protein-smoothies" onClick={handleMenuClick}>
+              Protein Smoothies
+            </a>
           </li>
           <li>
-            <Link to="/squeezed-juice">Squeezed Juice</Link>
+            <a href="#squeezed-juice" onClick={handleMenuClick}>
+              Squeezed Juice
+            </a>
           </li>
         </ul>
       )}
