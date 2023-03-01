@@ -1,12 +1,24 @@
-import { Fragment } from "react";
-import { Outlet } from "react-router-dom";
-import HomePage from "../../components/homepage/homepage.component.jsx";
+import { Fragment, useState } from "react";
 
-const Home = ({ menu }) => {
-  // console.log(menu);
+import Menu from "../../components/menu/menu.component";
+
+const Home = ({ menus }) => {
+  const [isOpenableMenu, setIsOpenableMenu] = useState(false);
+
   return (
     <Fragment>
-      <HomePage menus={menu} />
+      {menus.map((menu, index) => {
+        return (
+          <div
+            key={index}
+            onClick={() => {
+              isOpenableMenu(index);
+            }}
+          >
+            <img src={menu.image} alt={menu.name} />
+          </div>
+        );
+      })}
     </Fragment>
   );
 };

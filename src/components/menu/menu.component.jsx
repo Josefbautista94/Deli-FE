@@ -1,14 +1,19 @@
+import { Fragment } from "react";
 import SectionContainer from "../sectionContainer/sectionContainer.component";
 
-const Menu = ({ sectionContainerItem }) => {
-  //   console.log(sectionContainerItem);
+const Menu = ({ menu }) => {
+  const { sectionContainer } = menu;
   return (
-    <div>
-      <h1> FUCK JOSE</h1>
-      {/* {sectionContainerItem.map(({ sectionContainer }, index) => {
-        return <SectionContainer key={index} sectionData={sectionContainer} />;
-      })} */}
-    </div>
+    <Fragment>
+      {sectionContainer.map((sectionContainer, index) => {
+        return sectionContainer ? (
+          <SectionContainer key={index} sectionContainer={sectionContainer} />
+        ) : (
+          <></>
+        );
+      })}
+    </Fragment>
+
     /* { <>
       <Section
         id="fresh-salads"

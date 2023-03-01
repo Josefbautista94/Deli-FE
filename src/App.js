@@ -147,12 +147,13 @@ import Home from "./routes/Home/home.component.jsx";
 // }
 
 const App = () => {
-  const [menu, setMenu] = React.useState([
+  const [menus, setMenus] = React.useState([
     {
       sectionContainer: [
         {
           section: [
             {
+              name: "",
               subSection: [
                 {
                   name: "BLT Salad",
@@ -178,6 +179,7 @@ const App = () => {
           ],
           header: {
             title: "FRESH SALADS",
+            color: "green",
             subHeader: {
               name: "",
             },
@@ -186,6 +188,7 @@ const App = () => {
         {
           section: [
             {
+              name: "",
               subSection: [
                 {
                   name: "Triple Threat",
@@ -212,15 +215,17 @@ const App = () => {
           ],
           header: {
             title: "Grilled Cheeses",
+            color: "blue",
             description: "",
             subHeader: {
-              name: "HEALTHY PLATTERS",
+              name: "",
             },
           },
         },
         {
           section: [
             {
+              name: "",
               subSection: [
                 {
                   name: "",
@@ -230,6 +235,7 @@ const App = () => {
           ],
           header: {
             title: "HALAL FOOD",
+            color: "purple",
             subHeader: {
               name: "HEALTHY PLATTERS",
             },
@@ -237,15 +243,239 @@ const App = () => {
         },
       ],
     },
-    {},
-    {},
+    {
+      sectionContainer: [
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "The Deli Classic",
+                  description: [
+                    "any 1 boarshead meat",
+                    "1 cheese",
+                    "2 veggies",
+                  ],
+                },
+                {
+                  name: "The Torta",
+                  description: [
+                    "Grilled chicken",
+                    "onions",
+                    "peppers",
+                    "beans",
+                    "shredded cheese",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "SIGNATURE SANDWICHES",
+            subHeader: {
+              name: "ROLLS/HEROS - WRAPS",
+            },
+          },
+        },
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "Philly Style Steak",
+                  description: ["onions", "peppers", "provolone cheese"],
+                },
+                {
+                  name: "Pizza Cheesesteak",
+                  description: [
+                    "mushrooms",
+                    "marinara",
+                    "Fresh Mozzarella Cheese",
+                  ],
+                },
+                {
+                  name: "Mexican Steak",
+                  description: [
+                    "onions",
+                    "peppers",
+                    "jalapeno",
+                    "beans",
+                    "avocado",
+                    "shredded cheese",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "STEAKS N' CHEESE",
+            color: "orange",
+            subHeader: {
+              name: "",
+            },
+          },
+        },
+      ],
+    },
+    {
+      sectionContainer: [
+        {
+          section: [
+            {
+              name: "OMELETTES",
+              subSection: [
+                {
+                  name: "Meat Omelette",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "BREAKFAST",
+            subHeader: {
+              name: "",
+            },
+          },
+        },
+        {
+          section: [
+            {
+              subSection: [
+                {
+                  name: "Cheeseburger",
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Jalapeno Burger",
+                  description: ["Jalapenos", "cheddar cheese"],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "ANGUS BURGERS",
+            subHeader: {
+              name: "",
+            },
+          },
+        },
+      ],
+    },
+    {
+      sectionContainer: [
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "Mango Sunrise",
+                  description: ["mango", "pineapple", "apple juice"],
+                },
+                {
+                  name: "Passionate Peach",
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "FRUIT SMOOTHIES",
+            subHeader: {
+              name: "Medium - 5.99   LARGE - 6.99",
+            },
+          },
+        },
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "Oats of Glory",
+                  description: [
+                    "strawberries",
+                    "banana",
+                    "raw oatmeal",
+                    "vanilla",
+                    "protein & milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "PROTEIN SMOOTHIES",
+            subHeader: {
+              name: "MEDIUM - 6.99  LARGE - 7.99",
+            },
+          },
+        },
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "Pure Carrot",
+                  description: [""],
+                },
+                {
+                  name: "California Sunset",
+                  description: ["carrot", "beetks", "read apple", "ginger"],
+                },
+                {
+                  name: "Green Power",
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "SQUEEZED JUICE",
+            subHeader: {
+              name: "MEDIUM - 6.99  LARGE - 7.99",
+            },
+          },
+        },
+      ],
+    },
   ]);
 
   return (
     <Routes>
       <Route path="/" element={<Navigation />}>
-        <Route index element={<Home menu={menu} />} />
-        {menu.map((menuObj, index) => {
+        <Route index element={<Home menus={menus} />} />
+        {menus.map((menuObj, index) => {
           let pathName = `menu${index === 0 ? "" : index}`;
 
           return (
