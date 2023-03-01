@@ -15,6 +15,7 @@ const Home = ({ menus }) => {
               isOpenableMenu(index);
             }}
           >
+            <p>menu{index === 0 ? "" : index + 1}</p>
             <img src={menu.image} alt={menu.name} />
           </div>
         );
