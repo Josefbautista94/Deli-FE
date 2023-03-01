@@ -1,10 +1,13 @@
-import HomePage from "../../components/HomePage/HomePage.component.jsx";
+import { Fragment } from "react";
+import { Outlet } from "react-router-dom";
+import HomePage from "../../components/homepage/homepage.component.jsx";
 
-const Home = () => {
+const Home = ({ menu }) => {
+  // console.log(menu);
   return (
-    <div>
-      <HomePage />
-    </div>
+    <Fragment>
+      <HomePage menus={menu} />
+    </Fragment>
   );
 };
 
