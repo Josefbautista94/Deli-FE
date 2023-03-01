@@ -6,6 +6,9 @@ const Menu = ({ menu }) => {
   return (
     <Fragment>
       {sectionContainer.map((sectionContainer, index) => {
+        console.log(
+          ` this is the sectionContainer : ${sectionContainer} This is the index: ${index}`
+        );
         return sectionContainer ? (
           <SectionContainer key={index} sectionContainer={sectionContainer} />
         ) : (

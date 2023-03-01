@@ -1,8 +1,8 @@
 import Header from "../header/header.component";
 import Section from "../section/section.component";
+import "./sectionContainer.styles.css";
 
 const sectionContainer = ({ sectionContainer }) => {
-  // console.log(section);
   const { section, header } = sectionContainer;
   return (
     <div>

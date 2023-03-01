@@ -1,0 +1,11 @@
+.header-title {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgb(32, 73, 155);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
