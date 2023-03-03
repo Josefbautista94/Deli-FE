@@ -1,13 +1,13 @@
-// import React, { useState } from "react";
+import React from "react";
 import SubSection from "../subsection/subSection.component";
 import "./section.styles.css";
 
-const section = ({ section, numSection }) => {
+const Section = ({ section, numSection }) => {
   const { subSection } = section;
   return (
     <div
       className={`container ${
-        numSection === 1 ? "single-column" : "two-column"
+        numSection === 0 ? "single-column" : "two-column"
       }`}
     >
       {subSection ? (
@@ -22,4 +22,5 @@ const section = ({ section, numSection }) => {
     </div>
   );
 };
-export default section;
+
+export default Section;
