@@ -4,152 +4,153 @@ import Navigation from "./routes/Navigation/navigation.component.jsx";
 import Menu from "./components/menu/menu.component";
 import Home from "./routes/Home/home.component.jsx";
 
-// class App extends React.Component {
-//   constructor() {
-//     // this is where we manage the state
-//     super();
-//     this.state = {
-//       menu: [
-//         {
-//           sectionContainer: [
-//             {
-//               section: [
-//                 {
-//                   subSection: [
-//                     {
-//                       name: "BLT Salad",
-//                       description: [
-//                         "Iceberg&Romain mix",
-//                         "tomato",
-//                         "onions",
-//                         "crisp bacon bites",
-//                         "hard-boiled eggs",
-//                         "avocados",
-//                       ],
-//                     },
-//                     {
-//                       name: "The Greek",
-//                       description: [
-//                         "Romain lettuce",
-//                         "cherry tomatoes",
-//                         "sliced cucumber",
-//                       ],
-//                     },
-//                   ],
-//                 },
-//               ],
-//               header: {
-//                 title: "FRESH SALADS",
-//                 subHeader: {
-//                   name: "",
-//                 },
-//               },
-//             },
-//             {
-//               section: [
-//                 {
-//                   subSection: [
-//                     {
-//                       name: "Triple Threat",
-//                       description: [
-//                         "Pepper Jack",
-//                         "Cheddar Cheese",
-//                         "Mozzarella Cheese",
-//                       ],
-//                     },
-//                     {
-//                       name: "American Grilled Cheese",
-//                       description: ["Bacon", "Americano"],
-//                     },
-//                     {
-//                       name: "Bellian Grilled Cheese",
-//                       description: [
-//                         "Fresh Mozzarella Cheese",
-//                         "tomato",
-//                         "basil",
-//                       ],
-//                     },
-//                     {
-//                       name: "California Grilled Cheese",
-//                       description: [
-//                         "Avocado",
-//                         "Provolone cheese",
-//                         "chipotle mayo",
-//                       ],
-//                     },
-//                   ],
-//                 },
-//               ],
-//               header: {
-//                 title: "Grilled Cheeses",
-//                 description: "",
-//                 subHeader: {
-//                   name: "HEALTHY PLATTERS",
-//                 },
-//               },
-//             },
-//             {
-//               section: [
-//                 {
-//                   subSection: [
-//                     {
-//                       name: "",
-//                     },
-//                   ],
-//                 },
-//               ],
-//               header: {
-//                 title: "HALAL FOOD",
-//                 subHeader: {
-//                   name: "HEALTHY PLATTERS",
-//                 },
-//               },
-//             },
-//           ],
-//         },
-//         {},
-//         {},
-//       ],
-//     };
-//   }
-
-//   // renderMenuRoutes = () => {
-//   //   return this.state.menu.map((menuObj, index) => {
-//   //     console.log(index);
-
-//   //     <Route
-//   //       exact
-//   //       key={index}
-//   //       path={`menu${index === 0 ? "" : index + 1}`}
-//   //       element={<Menu menu={menuObj} />}
-//   //     />;
-//   //   });
-//   // };
-
-//   render() {
-//     console.log(this.state.menu);
-//     return (
-//       <Routes>
-//         <Route path="/" element={<Navigation />}>
-//           <Route index element={<Home menu={this.state.menu} />} />
-//           <Route exact path="menu" element={<Menu />} />
-//           {/* {this.state.menu.map((menuObj, index) => {
-//               let pathName = `menu${index === 0 ? "" : index}`;
-//               console.log(pathName);
-//               <Route exact key={index} path={pathName}>
-//                 <Menu menu={menuObj} />
-//               </Route>;
-//             })} */}
-//         </Route>
-//       </Routes>
-//     );
-//   }
-// }
-
 const App = () => {
   const [menus, setMenus] = React.useState([
     {
       sectionContainer: [
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "BLT Salad",
+                  description: [
+                    "Iceberg&Romain mix",
+                    "tomato",
+                    "onions",
+                    "crisp bacon bites",
+                    "hard-boiled eggs",
+                    "avocados",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                    "peppers",
+                    "red onion",
+                    "cheese",
+                    "olives",
+                    "chicken",
+                  ],
+                },
+                {
+                  name: "Fiesta",
+                  description: [
+                    "Iceberg lettuce",
+                    " tomates",
+                    "red onions",
+                    "shredded cheeese",
+                    "jalapenos",
+                    "black beans",
+                    "corn",
+                    "avocado",
+                    "and grilled chicken",
+                  ],
+                },
+                {
+                  name: "Cesar Chicken",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                    "grilled chicken",
+                    "cesar dressing",
+                    "parmagane cheese",
+                  ],
+                },
+                {
+                  name: "Tuna Salad",
+                  description: [
+                    "Mixed greens",
+                    "cherry tomatoes",
+                    "cucumber",
+                    "onions",
+                    "cucumbers",
+                    "carrots",
+                    "topped w/ tuna salad",
+                  ],
+                },
+                {
+                  name: "Grilled Chicken Garden",
+                  description: [
+                    "Salad mixed with iceburg",
+                    "red onions",
+                    "tomatoes",
+                    "carrots",
+                    "onions",
+                    "peppers",
+                    "broccoli",
+                    "grilled chicken",
+                  ],
+                },
+                {
+                  name: "Chefs Salad",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Olympians",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "FRESH SALADS",
+            color: "green",
+            subHeader: {
+              name: "",
+            },
+          },
+        },
+        {
+          section: [
+            {
+              name: "",
+              subSection: [
+                {
+                  name: "Triple Threat",
+                  description: [
+                    "Pepper Jack",
+                    "Cheddar Cheese",
+                    "Mozzarella Cheese",
+                  ],
+                },
+                {
+                  name: "American Grilled Cheese",
+                  description: ["Bacon", "Americano"],
+                },
+                {
+                  name: "Bellian Grilled Cheese",
+                  description: ["Fresh Mozzarella Cheese", "tomato", "basil"],
+                },
+                {
+                  name: "California Grilled Cheese",
+                  description: ["Avocado", "Provolone cheese", "chipotle mayo"],
+                },
+              ],
+            },
+          ],
+          header: {
+            title: "Grilled Cheeses",
+            color: "blue",
+            description: "",
+            subHeader: {
+              name: "",
+            },
+          },
+        },
         {
           section: [
             {
@@ -226,62 +227,6 @@ const App = () => {
             },
           ],
           header: {
-            title: "FRESH SALADS",
-            color: "green",
-            subHeader: {
-              name: "",
-            },
-          },
-        },
-        {
-          section: [
-            {
-              name: "",
-              subSection: [
-                {
-                  name: "Triple Threat",
-                  description: [
-                    "Pepper Jack",
-                    "Cheddar Cheese",
-                    "Mozzarella Cheese",
-                  ],
-                },
-                {
-                  name: "American Grilled Cheese",
-                  description: ["Bacon", "Americano"],
-                },
-                {
-                  name: "Bellian Grilled Cheese",
-                  description: ["Fresh Mozzarella Cheese", "tomato", "basil"],
-                },
-                {
-                  name: "California Grilled Cheese",
-                  description: ["Avocado", "Provolone cheese", "chipotle mayo"],
-                },
-              ],
-            },
-          ],
-          header: {
-            title: "Grilled Cheeses",
-            color: "blue",
-            description: "",
-            subHeader: {
-              name: "",
-            },
-          },
-        },
-        {
-          section: [
-            {
-              name: "",
-              subSection: [
-                {
-                  name: "",
-                },
-              ],
-            },
-          ],
-          header: {
             title: "HALAL FOOD",
             color: "purple",
             subHeader: {
@@ -299,21 +244,70 @@ const App = () => {
               name: "",
               subSection: [
                 {
-                  name: "The Deli Classic",
+                  name: "BLT Salad",
                   description: [
-                    "any 1 boarshead meat",
-                    "1 cheese",
-                    "2 veggies",
+                    "Iceberg&Romain mix",
+                    "tomato",
+                    "onions",
+                    "crisp bacon bites",
+                    "hard-boiled eggs",
+                    "avocados",
                   ],
                 },
                 {
-                  name: "The Torta",
+                  name: "The Greek",
                   description: [
-                    "Grilled chicken",
-                    "onions",
-                    "peppers",
-                    "beans",
-                    "shredded cheese",
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
                   ],
                 },
               ],
