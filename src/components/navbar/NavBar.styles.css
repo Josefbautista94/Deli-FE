@@ -111,6 +111,7 @@
 }
 .fa {
   font-size: 24px;
+  font-weight: bold;
 }
 
 .fa-bars {
@@ -118,4 +119,9 @@
   display: inline-block;
   color: white;
   transition: all 0.3s ease-in-out;
+  text-shadow: 1px 1px #333;
+}
+
+.fa-bars:hover {
+  transform: scale(1.1);
 }

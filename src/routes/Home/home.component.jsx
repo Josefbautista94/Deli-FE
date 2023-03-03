@@ -1,10 +1,26 @@
-import HomePage from "../../components/HomePage/HomePage.component.jsx";
+import { Fragment, useState } from "react";
 
-const Home = () => {
+import Menu from "../../components/menu/menu.component";
+
+const Home = ({ menus }) => {
+  const [isOpenableMenu, setIsOpenableMenu] = useState(false);
+
   return (
-    <div>
-      <HomePage />
-    </div>
+    <Fragment>
+      {menus.map((menu, index) => {
+        return (
+          <div
+            key={index}
+            onClick={() => {
+              isOpenableMenu(index);
+            }}
+          >
+            <p>menu{index === 0 ? "" : index + 1}</p>
+            <img src={menu.image} alt={menu.name} />
+          </div>
+        );
+      })}
+    </Fragment>
   );
 };
 

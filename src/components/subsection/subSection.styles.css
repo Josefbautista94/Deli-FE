@@ -1,0 +1,16 @@
+.subSec {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.subSec:hover {
+  border-bottom: 3px solid #f00;
+}
