@@ -411,6 +411,33 @@ const App = () => {
                     "shredded cheese",
                   ],
                 },
+                {
+                  name: "Texas Steak",
+                  description: [
+                    "onions",
+                    "peppers",
+                    "pepperjack cheese",
+                    "fried eggs",
+                  ],
+                },
+                {
+                  name: "Southwest Steak",
+                  description: ["onions", "peppers", "cheese", "bacon and bbq"],
+                },
+                {
+                  name: "Chicken Cheesesteak",
+                  description: [
+                    "onions",
+                    "peppers",
+                    "jalapeno",
+                    "mushrooms",
+                    "cheese",
+                  ],
+                },
+                {
+                  name: "Quesadilla",
+                  description: ["cheese", "chicken", "or PhillyCheese Steak"],
+                },
               ],
             },
           ],
