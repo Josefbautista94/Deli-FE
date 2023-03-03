@@ -1,27 +1,36 @@
+import React, { useState } from "react";
 import "./subSection.styles.css";
 
-const subSection = ({ description, name }) => {
+const SubSection = ({ description, name }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div>
-      <ul>
-        <li className="subSec">{name}</li>
+      <li className="subSec">
+        <ul>
+          <li>{name}</li>
 
-        <div>
-          <ul>
-            {description ? (
-              description.map((item, index) => (
-                <li key={index} className="description">
-                  {item}
-                </li>
-              ))
-            ) : (
-              <></>
-            )}
-          </ul>
-        </div>
-      </ul>
+          <div>
+            <ul className="list">
+              {description ? (
+                description.map((item, index) => (
+                  <li key={index} className="description">
+                    {item}
+                  </li>
+                ))
+              ) : (
+                <></>
+              )}
+            </ul>
+          </div>
+        </ul>
+      </li>
     </div>
   );
 };
 
-export default subSection;
+export default SubSection;

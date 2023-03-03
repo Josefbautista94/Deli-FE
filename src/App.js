@@ -30,10 +30,65 @@ const App = () => {
                     "Romain lettuce",
                     "cherry tomatoes",
                     "sliced cucumber",
+                    "peppers",
+                    "red onion",
+                    "cheese",
+                    "olives",
+                    "chicken",
                   ],
                 },
                 {
-                  name: "The Greek",
+                  name: "Fiesta",
+                  description: [
+                    "Iceberg lettuce",
+                    " tomates",
+                    "red onions",
+                    "shredded cheeese",
+                    "jalapenos",
+                    "black beans",
+                    "corn",
+                    "avocado",
+                    "and grilled chicken",
+                  ],
+                },
+                {
+                  name: "Cesar Chicken",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                    "grilled chicken",
+                    "cesar dressing",
+                    "parmagane cheese",
+                  ],
+                },
+                {
+                  name: "Tuna Salad",
+                  description: [
+                    "Mixed greens",
+                    "cherry tomatoes",
+                    "cucumber",
+                    "onions",
+                    "cucumbers",
+                    "carrots",
+                    "topped w/ tuna salad",
+                  ],
+                },
+                {
+                  name: "Grilled Chicken Garden",
+                  description: [
+                    "Salad mixed with iceburg",
+                    "red onions",
+                    "tomatoes",
+                    "carrots",
+                    "onions",
+                    "peppers",
+                    "broccoli",
+                    "grilled chicken",
+                  ],
+                },
+                {
+                  name: "Chefs Salad",
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -41,39 +96,7 @@ const App = () => {
                   ],
                 },
                 {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
+                  name: "The Olympians",
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -134,7 +157,44 @@ const App = () => {
               name: "",
               subSection: [
                 {
+                  name: "Step : 1 choose 2 items",
+                  description: [
+                    "Potatoes",
+                    "yellow rice",
+                    "pastas",
+                    "brown rice",
+                    "salad",
+                    "broccoli & Carrots",
+                  ],
+                },
+                {
+                  name: "Step 2: Choose 1 protein",
+                  description: [
+                    "grilled chicken",
+                    "hallah chicken",
+                    "fish + 1",
+                    " grillled Something (Cant read the menu)",
+                    "Lamb",
+                  ],
+                },
+                {
+                  name: "Step 3: add extras",
+                  description: [
+                    "hummus",
+                    "fallafas",
+                    "avocado",
+                    "extra meat + 2.00",
+                  ],
+                },
+                {
                   name: "",
+                  description: [
+                    "Chicken over rice",
+                    "Lamb over rice",
+                    "combo",
+                    "Lamb gyro",
+                    "chicken gyro",
+                  ],
                 },
               ],
             },
@@ -157,21 +217,160 @@ const App = () => {
               name: "",
               subSection: [
                 {
-                  name: "The Deli Classic",
+                  name: "The Deli classic",
                   description: [
-                    "any 1 boarshead meat",
+                    "any one boardshead meat,",
                     "1 cheese",
                     "2 veggies",
                   ],
                 },
                 {
-                  name: "The Torta",
+                  name: "Torta",
                   description: [
-                    "Grilled chicken",
+                    "grilled chicken",
                     "onions",
                     "peppers",
                     "beans",
                     "shredded cheese",
+                    "avocado",
+                    "lettuce",
+                    "chipotle mayo",
+                  ],
+                },
+                {
+                  name: "Chicken Club",
+                  description: [
+                    "Grilled chicken",
+                    "cheese",
+                    "bacon",
+                    " lettuce & tomatoes",
+                  ],
+                },
+                {
+                  name: "Chicken Capri",
+                  description: [
+                    "Chicken stuff",
+                    "roasted peppers",
+                    "fresh mozzerella & basil",
+                  ],
+                },
+                {
+                  name: "Chicken Cordon Bleu",
+                  description: [
+                    "more chicken stuff ",
+                    "swiss cheese",
+                    "lettuce & tomatoes",
+                    "Bleu cheese dressing",
+                  ],
+                },
+                {
+                  name: "The Italian job",
+                  description: [
+                    "fresh mozzerella & basil",
+                    "tomatoes & ",
+                    "olive oil",
+                  ],
+                },
+                {
+                  name: "Caribbean fiesta",
+                  description: [
+                    "jerk chicken",
+                    "chipotle something cheese",
+                    "peppers",
+                    "onions",
+                    "jalapenos",
+                    "lettuce & tomatoes",
+                    "ranch",
+                  ],
+                },
+                {
+                  name: "Have it your way chicken",
+                  description: [
+                    "Any Flavor of grilled chicken",
+                    "w/ cheese",
+                    "& 2 veggie toppings",
+                  ],
+                },
+                {
+                  name: "Chicken Cesar",
+                  description: [
+                    "grilled chicken",
+                    "csesar dressing",
+                    "& 2 veggie toppings",
+                    "some type of cheese 😂",
+                  ],
+                },
+                {
+                  name: "Tuna Melt",
+                  description: [
+                    "Classic Tuna Salad",
+                    "Cheddar Cheese",
+                    "Lettuce & Tomatoes",
+                  ],
+                },
+                {
+                  name: "California Fresh",
+                  description: [
+                    "Grilled Chicken",
+                    "something something",
+                    "avocado",
+                    " mixed greens and tomatoes",
+                  ],
+                },
+                {
+                  name: "Spartan SuperStar",
+                  description: [
+                    "Grilled Chicken",
+                    "turkey bacon",
+                    "avocado",
+                    "spianch and avocado",
+                  ],
+                },
+                {
+                  name: "Monte Cristo",
+                  description: [
+                    "T-ham",
+                    "turkey",
+                    "swiss",
+                    " lettuce & tomatoes",
+                    "mustard",
+                  ],
+                },
+                {
+                  name: "The Katz Special",
+                  description: [
+                    "roast beef",
+                    "pastrami",
+                    "swiss",
+                    " onions and mustard",
+                  ],
+                },
+                {
+                  name: "Fort Washington Garden",
+                  description: [
+                    "seassoned broccoli",
+                    "carrots",
+                    "corn",
+                    " beans",
+                    "something",
+                    "mozzerella cheese",
+                  ],
+                },
+                {
+                  name: "Chicken Parmesan",
+                  description: [
+                    "breasted chicken breast",
+                    "parmasan cheese",
+                    "avocado & mozzarella",
+                  ],
+                },
+                {
+                  name: "Chopped Cheese",
+                  description: [
+                    "beef",
+                    "american cheese",
+                    "lettuce & tomatoes",
+                    " mayo & ketchup",
                   ],
                 },
               ],
@@ -211,6 +410,33 @@ const App = () => {
                     "avocado",
                     "shredded cheese",
                   ],
+                },
+                {
+                  name: "Texas Steak",
+                  description: [
+                    "onions",
+                    "peppers",
+                    "pepperjack cheese",
+                    "fried eggs",
+                  ],
+                },
+                {
+                  name: "Southwest Steak",
+                  description: ["onions", "peppers", "cheese", "bacon and bbq"],
+                },
+                {
+                  name: "Chicken Cheesesteak",
+                  description: [
+                    "onions",
+                    "peppers",
+                    "jalapeno",
+                    "mushrooms",
+                    "cheese",
+                  ],
+                },
+                {
+                  name: "Quesadilla",
+                  description: ["cheese", "chicken", "or PhillyCheese Steak"],
                 },
               ],
             },
@@ -406,6 +632,5 @@ const App = () => {
     </Routes>
   );
 };
-
 
 export default App;
