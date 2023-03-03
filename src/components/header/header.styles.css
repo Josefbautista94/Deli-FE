@@ -9,3 +9,19 @@
   width: 100%;
   box-sizing: border-box;
 }
+
+.sub-container {
+  text-align: center;
+}
+
+.sub {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 6px 4px;
+  border-radius: 8px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin: 0 auto;
+}

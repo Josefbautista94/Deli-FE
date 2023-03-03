@@ -4,3 +4,8 @@
   display: inline-block;
   color: rgb(32, 73, 155);
 }
+
+.contentContainer {
+  height: 100vh; /* set the height to the full viewport height */
+  overflow: auto; /* add a scrollbar when content exceeds the height */
+}

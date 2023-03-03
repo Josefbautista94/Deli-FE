@@ -4,18 +4,17 @@ import SectionContainer from "../sectionContainer/sectionContainer.component";
 const Menu = ({ menu }) => {
   const { sectionContainer } = menu;
   return (
-    <Fragment>
+    <div className="contentContainer">
       {sectionContainer.map((sectionContainer, index) => {
-        console.log(
-          ` this is the sectionContainer : ${sectionContainer} This is the index: ${index}`
-        );
         return sectionContainer ? (
-          <SectionContainer key={index} sectionContainer={sectionContainer} />
+          <div>
+            <SectionContainer key={index} sectionContainer={sectionContainer} />
+          </div>
         ) : (
           <></>
         );
       })}
-    </Fragment>
+    </div>
 
     /* { <>
       <Section

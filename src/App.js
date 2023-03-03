@@ -174,6 +174,54 @@ const App = () => {
                     "sliced cucumber",
                   ],
                 },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
+                {
+                  name: "The Greek",
+                  description: [
+                    "Romain lettuce",
+                    "cherry tomatoes",
+                    "sliced cucumber",
+                  ],
+                },
               ],
             },
           ],
@@ -369,6 +417,7 @@ const App = () => {
           ],
           header: {
             title: "ANGUS BURGERS",
+            color: "brown",
             subHeader: {
               name: "",
             },
@@ -401,6 +450,7 @@ const App = () => {
           ],
           header: {
             title: "FRUIT SMOOTHIES",
+            color: "pink",
             subHeader: {
               name: "Medium - 5.99   LARGE - 6.99",
             },
@@ -435,6 +485,7 @@ const App = () => {
           ],
           header: {
             title: "PROTEIN SMOOTHIES",
+            color: "coral",
             subHeader: {
               name: "MEDIUM - 6.99  LARGE - 7.99",
             },
@@ -462,6 +513,7 @@ const App = () => {
           ],
           header: {
             title: "SQUEEZED JUICE",
+            color: "cyan",
             subHeader: {
               name: "MEDIUM - 6.99  LARGE - 7.99",
             },
@@ -471,11 +523,16 @@ const App = () => {
     },
   ]);
 
+  // const getData = async () => {
+  //   const response = await fetch("http://localhost:5000/");
+  // };
+
   return (
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home menus={menus} />} />
         {menus.map((menuObj, index) => {
+          console.log(menuObj);
           let pathName = `menu${index === 0 ? "" : index}`;
 
           return (
