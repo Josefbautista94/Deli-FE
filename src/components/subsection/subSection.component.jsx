@@ -9,13 +9,14 @@ const SubSection = ({ description, name }) => {
   };
 
   return (
-    <div>
+    <div className="subSecDiv">
       <li className="subSec">
         <ul>
-          <li>{name}</li>
+          {/* name of meal */}
+          <h2 className="nameOfMeal">{name} </h2>
 
-          <div>
-            <ul className="list">
+          <div className="descriptionDiv">
+            <ul>
               {description ? (
                 description.map((item, index) => (
                   <li key={index} className="description">

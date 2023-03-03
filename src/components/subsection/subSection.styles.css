@@ -1,5 +1,6 @@
 .subSec {
-  display: inline-block;
+  display: inline-flex;
+  width: 50%;
   padding: 10px 20px;
   margin: 0 10px;
   font-size: 16px;
@@ -15,4 +16,39 @@
 
 .subSec:hover {
   border-color: #f00;
+}
+.subSecDiv {
+  display: inline-flex;
+  width: 50%;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.nameOfMeal {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #3c3c3c;
+  text-shadow: 1px 1px 0 #eee, 2px 2px 0 #888;
+  margin-bottom: 10px;
+}
+.descriptionDiv {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 10px;
 }
