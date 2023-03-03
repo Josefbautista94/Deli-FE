@@ -157,70 +157,43 @@ const App = () => {
               name: "",
               subSection: [
                 {
-                  name: "BLT Salad",
+                  name: "Step : 1 choose 2 items",
                   description: [
-                    "Iceberg&Romain mix",
-                    "tomato",
-                    "onions",
-                    "crisp bacon bites",
-                    "hard-boiled eggs",
-                    "avocados",
+                    "Potatoes",
+                    "yellow rice",
+                    "pastas",
+                    "brown rice",
+                    "salad",
+                    "broccoli & Carrots",
                   ],
                 },
                 {
-                  name: "The Greek",
+                  name: "Step 2: Choose 1 protein",
                   description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
+                    "grilled chicken",
+                    "hallah chicken",
+                    "fish + 1",
+                    " grillled Something (Cant read the menu)",
+                    "Lamb",
                   ],
                 },
                 {
-                  name: "The Greek",
+                  name: "Step 3: add extras",
                   description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
+                    "hummus",
+                    "fallafas",
+                    "avocado",
+                    "extra meat + 2.00",
                   ],
                 },
                 {
-                  name: "The Greek",
+                  name: "",
                   description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
-                  ],
-                },
-                {
-                  name: "The Greek",
-                  description: [
-                    "Romain lettuce",
-                    "cherry tomatoes",
-                    "sliced cucumber",
+                    "Chicken over rice",
+                    "Lamb over rice",
+                    "combo",
+                    "Lamb gyro",
+                    "chicken gyro",
                   ],
                 },
               ],
@@ -542,6 +515,5 @@ const App = () => {
     </Routes>
   );
 };
-
 
 export default App;
