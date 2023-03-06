@@ -16,7 +16,7 @@ const SubSection = ({ description, name }) => {
           <h2 className="nameOfMeal">{name} </h2>
 
           <div className="descriptionDiv">
-            <ul>
+            <ul classname="listedDes">
               {description ? (
                 description.map((item, index) => (
                   <li key={index} className="description">

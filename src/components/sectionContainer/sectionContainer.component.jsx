@@ -2,7 +2,7 @@ import Header from "../header/header.component";
 import Section from "../section/section.component";
 import "./sectionContainer.styles.css";
 
-const sectionContainer = ({ sectionContainer }) => {
+const SectionContainer = ({ sectionContainer }) => {
   const { section, header } = sectionContainer;
   return (
     <div className="contentContainer">
@@ -14,4 +14,4 @@ const sectionContainer = ({ sectionContainer }) => {
   );
 };
 
-export default sectionContainer;
+export default SectionContainer;
