@@ -1,14 +1,27 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  height: auto; /* change height to auto */
 }
 
 .single-column {
   grid-template-columns: 1fr;
 }
+
 .column {
-  flex: 1;
   padding: 10px;
   border: 1px solid #ccc;
+  height: 100%;
+}
+
+.contentContainer {
+  height: 100%;
 }
