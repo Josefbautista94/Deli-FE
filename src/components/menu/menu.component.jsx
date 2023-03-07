@@ -6,7 +6,6 @@ const Menu = ({ menu }) => {
   return (
     <div className="menuContainer">
       {" "}
-      {/* bug fix css for menuContainer bug */}
       {sectionContainer.map((sectionContainer, index) => {
         return sectionContainer ? (
           <div>

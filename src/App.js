@@ -15,6 +15,8 @@ const App = () => {
               subSection: [
                 {
                   name: "BLT Salad",
+                  color: "green",
+
                   price: 10.99,
                   description: [
                     "Iceberg&Romain mix",
@@ -27,6 +29,8 @@ const App = () => {
                 },
                 {
                   name: "The Greek",
+                  color: "green",
+
                   price: 10.99,
                   description: [
                     "Romain lettuce",
@@ -41,6 +45,8 @@ const App = () => {
                 },
                 {
                   name: "Fiesta",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -57,6 +63,8 @@ const App = () => {
                 },
                 {
                   name: "Cesar Chicken",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -70,6 +78,8 @@ const App = () => {
                 },
                 {
                   name: "Tuna Salad",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -84,6 +94,8 @@ const App = () => {
                 },
                 {
                   name: "Grilled Chicken Garden",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -99,6 +111,8 @@ const App = () => {
                 },
                 {
                   name: "Chefs Salad",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -109,6 +123,8 @@ const App = () => {
                 },
                 {
                   name: "The Olympians",
+                  color: "green",
+
                   price: 10.99,
 
                   description: [
@@ -137,6 +153,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Triple Threat",
+                  color: "#0D47A1",
+
                   price: 10.99,
 
                   description: [
@@ -147,18 +165,24 @@ const App = () => {
                 },
                 {
                   name: "American Grilled Cheese",
+                  color: "#0D47A1",
+
                   price: 10.99,
 
                   description: ["Bacon", "Americano"],
                 },
                 {
                   name: "Bellian Grilled Cheese",
+                  color: "#0D47A1",
+
                   price: 10.99,
 
                   description: ["Fresh Mozzarella Cheese", "tomato", "basil"],
                 },
                 {
                   name: "California Grilled Cheese",
+                  color: "#0D47A1",
+
                   price: 10.99,
 
                   description: ["Avocado", "Provolone cheese", "chipotle mayo"],
@@ -168,10 +192,10 @@ const App = () => {
           ],
           header: {
             title: "Grilled Cheeses",
-            color: "blue",
+            color: "#0D47A1",
             description: "",
             subHeader: {
-              name: "",
+              name: "served with fries or mixed salads",
             },
           },
         },
@@ -182,8 +206,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Step : 1 choose 2 items",
+                  color: "purple",
                   price: 10.99,
-
                   description: [
                     "Potatoes",
                     "yellow rice",
@@ -195,6 +219,8 @@ const App = () => {
                 },
                 {
                   name: "Step 2: Choose 1 protein",
+                  color: "purple",
+
                   description: [
                     "grilled chicken",
                     "hallah chicken",
@@ -205,6 +231,8 @@ const App = () => {
                 },
                 {
                   name: "Step 3: add extras",
+                  color: "purple",
+
                   description: [
                     "hummus",
                     "fallafas",
@@ -214,6 +242,7 @@ const App = () => {
                 },
                 {
                   name: "",
+
                   description: [
                     "Chicken over rice",
                     "Lamb over rice",
@@ -244,6 +273,8 @@ const App = () => {
               subSection: [
                 {
                   name: "The Deli classic",
+                  color: "#1565C0",
+
                   description: [
                     "any one boardshead meat,",
                     "1 cheese",
@@ -252,6 +283,8 @@ const App = () => {
                 },
                 {
                   name: "Torta",
+                  color: "#1565C0",
+
                   description: [
                     "grilled chicken",
                     "onions",
@@ -265,6 +298,8 @@ const App = () => {
                 },
                 {
                   name: "Chicken Club",
+                  color: "#1565C0",
+
                   description: [
                     "Grilled chicken",
                     "cheese",
@@ -274,6 +309,8 @@ const App = () => {
                 },
                 {
                   name: "Chicken Capri",
+                  color: "#1565C0",
+
                   description: [
                     "Chicken stuff",
                     "roasted peppers",
@@ -282,6 +319,8 @@ const App = () => {
                 },
                 {
                   name: "Chicken Cordon Bleu",
+                  color: "#1565C0",
+
                   description: [
                     "more chicken stuff ",
                     "swiss cheese",
@@ -291,6 +330,8 @@ const App = () => {
                 },
                 {
                   name: "The Italian job",
+                  color: "#1565C0",
+
                   description: [
                     "fresh mozzerella & basil",
                     "tomatoes & ",
@@ -299,6 +340,8 @@ const App = () => {
                 },
                 {
                   name: "Caribbean fiesta",
+                  color: "#1565C0",
+
                   description: [
                     "jerk chicken",
                     "chipotle something cheese",
@@ -311,6 +354,8 @@ const App = () => {
                 },
                 {
                   name: "Have it your way chicken",
+                  color: "#1565C0",
+
                   description: [
                     "Any Flavor of grilled chicken",
                     "w/ cheese",
@@ -319,6 +364,8 @@ const App = () => {
                 },
                 {
                   name: "Chicken Cesar",
+                  color: "#1565C0",
+
                   description: [
                     "grilled chicken",
                     "csesar dressing",
@@ -328,6 +375,8 @@ const App = () => {
                 },
                 {
                   name: "Tuna Melt",
+                  color: "#1565C0",
+
                   description: [
                     "Classic Tuna Salad",
                     "Cheddar Cheese",
@@ -336,6 +385,8 @@ const App = () => {
                 },
                 {
                   name: "California Fresh",
+                  color: "#1565C0",
+
                   description: [
                     "Grilled Chicken",
                     "something something",
@@ -345,6 +396,8 @@ const App = () => {
                 },
                 {
                   name: "Spartan SuperStar",
+                  color: "#1565C0",
+
                   description: [
                     "Grilled Chicken",
                     "turkey bacon",
@@ -354,6 +407,8 @@ const App = () => {
                 },
                 {
                   name: "Monte Cristo",
+                  color: "#1565C0",
+
                   description: [
                     "T-ham",
                     "turkey",
@@ -364,6 +419,8 @@ const App = () => {
                 },
                 {
                   name: "The Katz Special",
+                  color: "#1565C0",
+
                   description: [
                     "roast beef",
                     "pastrami",
@@ -373,6 +430,8 @@ const App = () => {
                 },
                 {
                   name: "Fort Washington Garden",
+                  color: "#1565C0",
+
                   description: [
                     "seassoned broccoli",
                     "carrots",
@@ -384,6 +443,8 @@ const App = () => {
                 },
                 {
                   name: "Chicken Parmesan",
+                  color: "#1565C0",
+
                   description: [
                     "breasted chicken breast",
                     "parmasan cheese",
@@ -392,6 +453,8 @@ const App = () => {
                 },
                 {
                   name: "Chopped Cheese",
+                  color: "#1565C0",
+
                   description: [
                     "beef",
                     "american cheese",
@@ -404,6 +467,7 @@ const App = () => {
           ],
           header: {
             title: "SIGNATURE SANDWICHES",
+            color: "#1565C0",
             subHeader: {
               name: "ROLLS/HEROS - WRAPS",
             },
@@ -416,10 +480,14 @@ const App = () => {
               subSection: [
                 {
                   name: "Philly Style Steak",
+                  color: "orange",
+
                   description: ["onions", "peppers", "provolone cheese"],
                 },
                 {
                   name: "Pizza Cheesesteak",
+                  color: "orange",
+
                   description: [
                     "mushrooms",
                     "marinara",
@@ -428,6 +496,8 @@ const App = () => {
                 },
                 {
                   name: "Mexican Steak",
+                  color: "orange",
+
                   description: [
                     "onions",
                     "peppers",
@@ -439,6 +509,8 @@ const App = () => {
                 },
                 {
                   name: "Texas Steak",
+                  color: "orange",
+
                   description: [
                     "onions",
                     "peppers",
@@ -448,10 +520,14 @@ const App = () => {
                 },
                 {
                   name: "Southwest Steak",
+                  color: "orange",
+
                   description: ["onions", "peppers", "cheese", "bacon and bbq"],
                 },
                 {
                   name: "Chicken Cheesesteak",
+                  color: "orange",
+
                   description: [
                     "onions",
                     "peppers",
@@ -462,6 +538,8 @@ const App = () => {
                 },
                 {
                   name: "Quesadilla",
+                  color: "orange",
+
                   description: ["cheese", "chicken", "or PhillyCheese Steak"],
                 },
               ],
@@ -486,6 +564,7 @@ const App = () => {
               subSection: [
                 {
                   name: "Meat Omelette",
+                  color: "#FBC02D",
                   description: [
                     "Turkey",
                     "ham",
@@ -499,6 +578,7 @@ const App = () => {
           ],
           header: {
             title: "BREAKFAST",
+            color: "#FBC02D",
             subHeader: {
               name: "",
             },
@@ -510,6 +590,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Cheeseburger",
+                  color: "brown",
+
                   description: [
                     "w/cheese",
                     "lettuce",
@@ -520,6 +602,8 @@ const App = () => {
                 },
                 {
                   name: "Jalapeno Burger",
+                  color: "brown",
+
                   description: ["Jalapenos", "cheddar cheese"],
                 },
               ],
@@ -544,10 +628,14 @@ const App = () => {
               subSection: [
                 {
                   name: "Mango Sunrise",
+                  color: "pink",
+
                   description: ["mango", "pineapple", "apple juice"],
                 },
                 {
                   name: "Passionate Peach",
+                  color: "pink",
+
                   description: [
                     "peach",
                     "banana",
@@ -573,6 +661,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Oats of Glory",
+                  color: "coral",
+
                   description: [
                     "strawberries",
                     "banana",
@@ -583,6 +673,8 @@ const App = () => {
                 },
                 {
                   name: "Banana Madness",
+                  color: "coral",
+
                   description: [
                     "Banana",
                     "peanut butter",
@@ -608,14 +700,20 @@ const App = () => {
               subSection: [
                 {
                   name: "Pure Carrot",
+                  color: "cyan",
+
                   description: [""],
                 },
                 {
                   name: "California Sunset",
+                  color: "cyan",
+
                   description: ["carrot", "beetks", "read apple", "ginger"],
                 },
                 {
                   name: "Green Power",
+                  color: "cyan",
+
                   description: ["cucumbers", "green apples", "calery", "kale"],
                 },
               ],

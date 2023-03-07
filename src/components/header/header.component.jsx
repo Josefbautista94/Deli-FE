@@ -11,10 +11,7 @@ const Header = ({ headerItem }) => {
       </h1>
       {subHeader ? (
         <div class="sub-container">
-          <h2 class="sub">
-            This is where the subheader goes:
-            {subHeader.name}
-          </h2>
+          <h2 class="sub">{subHeader.name}</h2>
         </div>
       ) : (
         ""
