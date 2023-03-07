@@ -5,13 +5,16 @@ const Header = ({ headerItem }) => {
   const { title, color, subHeader } = headerItem;
 
   return (
-    <div className="header-container">
+    <div
+      className="header-container"
+      id={title.toLowerCase().replace(/\s+/g, "-")}
+    >
       <h1 className="header-title" style={{ backgroundColor: color }}>
         {title}
       </h1>
       {subHeader ? (
-        <div class="sub-container">
-          {subHeader.name ? <h2 class="sub">{subHeader.name}</h2> : null}
+        <div className="sub-container">
+          {subHeader.name ? <h2 className="sub">{subHeader.name}</h2> : null}
         </div>
       ) : (
         ""

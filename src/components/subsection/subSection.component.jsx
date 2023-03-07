@@ -13,7 +13,7 @@ const SubSection = ({ description, price, name, color }) => {
     <div className="subSecDiv">
       <li className="subSec">
         <ul>
-          {/* name of meal */}
+          {/* name of meal and price i also amde it so that if price is undefined to return null! */}
           {price ? (
             <h2 className="nameOfMeal" style={{ color }}>
               {name + " " + price}{" "}

@@ -244,11 +244,11 @@ const App = () => {
                   name: "",
 
                   description: [
-                    "Chicken over rice",
-                    "Lamb over rice",
-                    "combo",
-                    "Lamb gyro",
-                    "chicken gyro",
+                    "Chicken over rice" + " " + 8.99,
+                    "Lamb over rice" + " " + 8.99,
+                    "combo" + " " + 9.99,
+                    "Lamb gyro" + " " + 7.49,
+                    "chicken gyro" + " " + 7.49,
                   ],
                 },
               ],
