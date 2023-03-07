@@ -573,6 +573,226 @@ const App = () => {
                     "peppers",
                   ],
                 },
+                {
+                  name: "Cheese Omelette",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Western Omelette",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Vegtable Omelette",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Greek Omelette",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Steak N Cheese",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Mushroom and Swiss",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "BLT",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Philly Mac",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Captain America",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Spartan",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Bacon Egg And Cheese",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "The Hungry Man",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Health Nut",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Bacon Or Sausage",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Turkey or Ham",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Bacon & Sausage",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Just Eggs & Homefries",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Pancakes/ FrenchToast",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Blueberry pancakes",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
+                {
+                  name: "Banana Nutella Pancakes",
+                  color: "#FBC02D",
+                  description: [
+                    "Turkey",
+                    "ham",
+                    "sausage or bacon",
+                    "onions",
+                    "peppers",
+                  ],
+                },
               ],
             },
           ],
@@ -606,6 +826,126 @@ const App = () => {
 
                   description: ["Jalapenos", "cheddar cheese"],
                 },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
+                {
+                  name: "Cheeseburger",
+                  color: "brown",
+
+                  description: [
+                    "w/cheese",
+                    "lettuce",
+                    "tomatoes",
+                    "pickle",
+                    "ketch",
+                  ],
+                },
               ],
             },
           ],
@@ -631,6 +971,138 @@ const App = () => {
                   color: "pink",
 
                   description: ["mango", "pineapple", "apple juice"],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
+                },
+                {
+                  name: "Passionate Peach",
+                  color: "pink",
+
+                  description: [
+                    "peach",
+                    "banana",
+                    "strawberries",
+                    "mango nectar",
+                  ],
                 },
                 {
                   name: "Passionate Peach",
@@ -682,6 +1154,83 @@ const App = () => {
                     "milk",
                   ],
                 },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
+                {
+                  name: "Banana Madness",
+                  color: "coral",
+
+                  description: [
+                    "Banana",
+                    "peanut butter",
+                    "chocolate protein",
+                    "milk",
+                  ],
+                },
               ],
             },
           ],
@@ -709,6 +1258,48 @@ const App = () => {
                   color: "cyan",
 
                   description: ["carrot", "beetks", "read apple", "ginger"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
+                },
+                {
+                  name: "Green Power",
+                  color: "cyan",
+
+                  description: ["cucumbers", "green apples", "calery", "kale"],
                 },
                 {
                   name: "Green Power",
