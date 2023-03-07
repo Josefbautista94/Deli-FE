@@ -14,19 +14,12 @@ const SubSection = ({ description, name }) => {
         <ul>
           {/* name of meal */}
           <h2 className="nameOfMeal">{name} </h2>
-
           <div className="descriptionDiv">
-            <ul classname="listedDes">
-              {description ? (
-                description.map((item, index) => (
-                  <li key={index} className="description">
-                    {item}
-                  </li>
-                ))
-              ) : (
-                <></>
-              )}
-            </ul>
+            {description ? (
+              <div className="description">{description.join(", ")}</div>
+            ) : (
+              <></>
+            )}
           </div>
         </ul>
       </li>
