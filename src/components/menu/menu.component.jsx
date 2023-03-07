@@ -8,6 +8,7 @@ const Menu = ({ menu }) => {
       {sectionContainer.map((sectionContainer, index) => {
         return sectionContainer ? (
           <div>
+            {" "}
             <SectionContainer key={index} sectionContainer={sectionContainer} />
           </div>
         ) : (
