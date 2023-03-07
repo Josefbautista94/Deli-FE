@@ -1,10 +1,12 @@
 import { Fragment } from "react";
 import SectionContainer from "../sectionContainer/sectionContainer.component";
-
+import "./menu.styles.css";
 const Menu = ({ menu }) => {
   const { sectionContainer } = menu;
   return (
-    <div className="contentContainer">
+    <div className="menuContainer">
+      {" "}
+      {/* bug fix css for menuContainer bug */}
       {sectionContainer.map((sectionContainer, index) => {
         return sectionContainer ? (
           <div>

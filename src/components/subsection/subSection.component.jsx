@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./subSection.styles.css";
 
-const SubSection = ({ description, name }) => {
+const SubSection = ({ description, price, name }) => {
   const [isOpen, setIsOpen] = useState(false);
+  console.log(price);
 
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -13,7 +14,7 @@ const SubSection = ({ description, name }) => {
       <li className="subSec">
         <ul>
           {/* name of meal */}
-          <h2 className="nameOfMeal">{name} </h2>
+          <h2 className="nameOfMeal">{name + " " + price} </h2>
           <div className="descriptionDiv">
             {description ? (
               <div className="description">{description.join(", ")}</div>
