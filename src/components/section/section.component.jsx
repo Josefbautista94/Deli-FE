@@ -11,9 +11,14 @@ const Section = ({ section, numSection }) => {
       }`}
     >
       {subSection ? (
-        subSection.map(({ name, description }, index) => {
+        subSection.map(({ name, description, price }, index) => {
           return (
-            <SubSection key={index} name={name} description={description} />
+            <SubSection
+              key={index}
+              name={name}
+              description={description}
+              price={price}
+            />
           );
         })
       ) : (

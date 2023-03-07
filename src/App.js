@@ -15,6 +15,7 @@ const App = () => {
               subSection: [
                 {
                   name: "BLT Salad",
+                  price: 10.99,
                   description: [
                     "Iceberg&Romain mix",
                     "tomato",
@@ -26,6 +27,7 @@ const App = () => {
                 },
                 {
                   name: "The Greek",
+                  price: 10.99,
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -39,6 +41,8 @@ const App = () => {
                 },
                 {
                   name: "Fiesta",
+                  price: 10.99,
+
                   description: [
                     "Iceberg lettuce",
                     " tomates",
@@ -53,6 +57,8 @@ const App = () => {
                 },
                 {
                   name: "Cesar Chicken",
+                  price: 10.99,
+
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -64,6 +70,8 @@ const App = () => {
                 },
                 {
                   name: "Tuna Salad",
+                  price: 10.99,
+
                   description: [
                     "Mixed greens",
                     "cherry tomatoes",
@@ -76,6 +84,8 @@ const App = () => {
                 },
                 {
                   name: "Grilled Chicken Garden",
+                  price: 10.99,
+
                   description: [
                     "Salad mixed with iceburg",
                     "red onions",
@@ -89,6 +99,8 @@ const App = () => {
                 },
                 {
                   name: "Chefs Salad",
+                  price: 10.99,
+
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -97,6 +109,8 @@ const App = () => {
                 },
                 {
                   name: "The Olympians",
+                  price: 10.99,
+
                   description: [
                     "Romain lettuce",
                     "cherry tomatoes",
@@ -108,6 +122,8 @@ const App = () => {
           ],
           header: {
             title: "FRESH SALADS",
+            price: 10.99,
+
             color: "green",
             subHeader: {
               name: "",
@@ -121,6 +137,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Triple Threat",
+                  price: 10.99,
+
                   description: [
                     "Pepper Jack",
                     "Cheddar Cheese",
@@ -129,14 +147,20 @@ const App = () => {
                 },
                 {
                   name: "American Grilled Cheese",
+                  price: 10.99,
+
                   description: ["Bacon", "Americano"],
                 },
                 {
                   name: "Bellian Grilled Cheese",
+                  price: 10.99,
+
                   description: ["Fresh Mozzarella Cheese", "tomato", "basil"],
                 },
                 {
                   name: "California Grilled Cheese",
+                  price: 10.99,
+
                   description: ["Avocado", "Provolone cheese", "chipotle mayo"],
                 },
               ],
@@ -158,6 +182,8 @@ const App = () => {
               subSection: [
                 {
                   name: "Step : 1 choose 2 items",
+                  price: 10.99,
+
                   description: [
                     "Potatoes",
                     "yellow rice",
